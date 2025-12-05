@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ServerMain",
+      "request": "launch",
+      "mainClass": "bookrecommender.server.ServerMain",
+      "projectName": "bookrecommender-server"
+    },
+    {
+      "type": "java",
       "name": "Launch BookRecommenderFX",
       "request": "launch",
       "mainClass": "bookrecommender.ui.BookRecommenderFX",
