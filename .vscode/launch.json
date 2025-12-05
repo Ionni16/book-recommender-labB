@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch BookRecommenderFX",
+      "request": "launch",
+      "mainClass": "bookrecommender.ui.BookRecommenderFX",
+      "vmArgs": "--module-path \"C:/javafx-sdk-17.0.16/lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}

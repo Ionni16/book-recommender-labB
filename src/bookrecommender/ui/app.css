@@ -1,0 +1,122 @@
+/* ---- Palette ---- */
+:root {
+  -fx-primary: #4f46e5;         /* indigo-600 */
+  -fx-primary-700: #4338ca;
+  -fx-bg: #f7f7fb;
+  -fx-text: #1f2937;
+  -fx-muted: #6b7280;
+  -fx-surface: #ffffff;
+  -fx-border: #e5e7eb;
+  -fx-zebra: #fafafa;
+}
+
+/* ---- AppBar ---- */
+.appbar {
+  -fx-background-color: linear-gradient(to right, #eef2ff, #ffffff);
+  -fx-border-color: transparent transparent -fx-border transparent;
+  -fx-border-width: 0 0 1 0;
+}
+.title {
+  -fx-font-size: 22px;
+  -fx-font-weight: 700;
+  -fx-text-fill: -fx-text;
+}
+.title2 {
+  -fx-font-size: 18px;
+  -fx-font-weight: 700;
+}
+.subtitle {
+  -fx-font-size: 12px;
+  -fx-text-fill: -fx-muted;
+}
+
+/* ---- Buttons ---- */
+.button {
+  -fx-background-radius: 10;
+  -fx-padding: 8 14 8 14;
+  -fx-background-color: -fx-surface;
+  -fx-border-color: -fx-border;
+  -fx-border-radius: 10;
+}
+.button:hover { -fx-background-color: #f4f4f9; }
+.button.primary {
+  -fx-background-color: -fx-primary;
+  -fx-text-fill: white;
+  -fx-border-color: transparent;
+}
+.button.primary:hover { -fx-background-color: -fx-primary-700; }
+.button.ghost {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+}
+
+/* ---- Segmented ---- */
+.segmented .toggle-button {
+  -fx-background-radius: 10;
+  -fx-background-color: white;
+  -fx-border-color: -fx-border;
+  -fx-border-radius: 10;
+  -fx-padding: 6 12 6 12;
+}
+.segmented .toggle-button:selected {
+  -fx-background-color: #eef2ff;
+  -fx-border-color: -fx-primary;
+}
+
+/* ---- Inputs ---- */
+.text-field {
+  -fx-background-radius: 10;
+  -fx-background-color: white;
+  -fx-border-color: -fx-border;
+  -fx-border-radius: 10;
+  -fx-padding: 8 10 8 10;
+}
+
+/* ---- TableView ---- */
+.table-view {
+  -fx-background-color: transparent;
+}
+.table-view .column-header-background {
+  -fx-background-color: #f3f4f6;
+}
+.table-row-cell:odd {
+  -fx-background-color: -fx-zebra;
+}
+.table-row-cell:selected {
+  -fx-background-color: #e0e7ff;
+}
+
+/* ---- Cards ---- */
+.elevated {
+  -fx-background-color: -fx-surface;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 12, 0.15, 0, 2);
+  -fx-background-radius: 14;
+  -fx-border-radius: 14;
+  -fx-border-color: #f1f5f9;
+}
+
+/* ---- Detail drawer ---- */
+.detail {
+  -fx-background-insets: 0;
+}
+
+/* ---- Statusbar ---- */
+.statusbar {
+  -fx-background-color: #fafafa;
+  -fx-border-color: -fx-border;
+  -fx-border-width: 1 0 0 0;
+}
+
+/* ---- Muted text ---- */
+.muted {
+  -fx-text-fill: -fx-muted;
+}
+
+/* ---- Snackbar ---- */
+.snackbar {
+  -fx-background-color: rgba(31,41,55,0.92);
+  -fx-text-fill: white;
+  -fx-padding: 10 16 10 16;
+  -fx-background-radius: 999;
+  -fx-font-size: 13px;
+}

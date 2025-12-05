@@ -1,0 +1,12 @@
+{
+  "java.project.referencedLibraries": [
+    "C:/javafx-sdk-17.0.16/lib/*.jar"
+  ],
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "C:/Program Files/Eclipse Adoptium/jdk-17.0.15.6-hotspot",
+      "default": true
+    }
+  ]
+}
